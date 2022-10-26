@@ -8,6 +8,7 @@
     display: flex;
     flex-wrap: wrap;
     border: 5px solid red;
+    background-image: url("img/champ.jpg");
 }
 
 .nav{
@@ -33,7 +34,6 @@
 .accueil{
     display: flex;
     flex-wrap: wrap;
-    background-image: url("img/champ.jpg");
     border: 5px solid rgb(255, 0, 144);
 }
 .bandeau{
