@@ -1,0 +1,37 @@
+missions:
+
+nav barre logo, section : Intro, Demos,Core Features, Inner Pages, Awesone Sections, bouton " Purchase Now"
+
+nav barre fixe 
+nav barre bg transparent au début
+nav barre bg blanc sur les autres pages
+
+page intro:
+
+nav barre
+image bg
+texte " Organia - Organic Foods Store WordPress Theme"
+encadrer indication de la page 
+footer blanc
+
+page Demos:
+3 cards
+effet cards
+bouton card avec effet
+
+page Core Features:
+8 cards avec icon et effet
+
+page inner pages:
+une photo du site
+
+Awesome Sections:
+carroussel
+avec fleche en dessous
+
+footer:
+texte idem intro
+icon reseau sociaux
+
+
+bouton scrool pour remonter à l'intro

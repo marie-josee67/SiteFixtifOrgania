@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intro{
+    min-height: 100vw;
+    background-image: url("img/champ.jpg");
+    justify-content: center;
+    align-items: center;
+
+ }
