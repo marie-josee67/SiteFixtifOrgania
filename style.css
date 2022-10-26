@@ -5,9 +5,38 @@
 }
 
 .intro{
-    min-height: 100vw;
-    background-image: url("img/champ.jpg");
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid red;
+}
 
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+    width: 65%;
+    font-size: 30px;
+    gap:5px;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(51, 255, 0);
+}
+/* bouton de la nav barre */
+.purchase{
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+    width: 160px;
+    font-size:20px ;
+    background: rgb(10, 147, 10);
+}
+.accueil{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("img/champ.jpg");
+    border: 5px solid rgb(255, 0, 144);
+}
+.bandeau{
+    display: block;
+    border: 5px solid rgb(255, 225, 0);
  }
