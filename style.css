@@ -42,37 +42,48 @@
 .purchase{
     display: flex;
     flex-wrap: wrap;
-    height: 50px;
+    height: 70px;
     width: 160px;
     font-size:20px ;
+    justify-content: center;
+    align-items: center;
     padding: 5px;
     border-radius: 0 50px 50px 0;
     text-decoration-style:none;
     background: rgb(10, 147, 10);
+    border: 5px solid blue;
 }
 
 /* ***************************** page acceuil ********************************** */
 
 .accueil{
-    display: flex;
-    display: flex;
-    flex-wrap: wrap;
+    display:block;
     height: 100vh;
     z-index: 2;
     border: 5px solid rgb(255, 0, 144);
 }
+
 h1{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
     font-size: 50px;
     justify-content: center;
     align-items: center;
+    border: 5px solid rgb(77, 17, 160);
 }
+
 .bandeau{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction:inherit;
     height: 200px;
     width: 70%;
     justify-content: center;
     align-items: center;
     margin: 50px;
+    background: #f3f3f3;
+    font-size:xx-large;
+    text-align: center;
+    gap:10px;
     border: 5px solid rgb(255, 225, 0);
  }
