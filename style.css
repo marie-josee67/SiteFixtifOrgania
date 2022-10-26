@@ -4,11 +4,25 @@
     box-sizing: border-box;
 }
 
+/* ************************************************ page accueil => intro ************************************************** */
+
+#fond{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+/* ***************************** Nav barre ********************************** */
+
 .intro{
     display: flex;
     flex-wrap: wrap;
+    background: transparent;
+    z-index: 1;
     border: 5px solid red;
-    background-image: url("img/champ.jpg");
 }
 
 .nav{
@@ -16,12 +30,14 @@
     flex-wrap: wrap;
     height: 80px;
     width: 65%;
+    flex-wrap: wrap;
     font-size: 30px;
-    gap:5px;
+    gap:15px;
     align-items: center;
     justify-content: center;
     border: 5px solid rgb(51, 255, 0);
 }
+
 /* bouton de la nav barre */
 .purchase{
     display: flex;
@@ -29,14 +45,34 @@
     height: 50px;
     width: 160px;
     font-size:20px ;
+    padding: 5px;
+    border-radius: 0 50px 50px 0;
+    text-decoration-style:none;
     background: rgb(10, 147, 10);
 }
+
+/* ***************************** page acceuil ********************************** */
+
 .accueil{
     display: flex;
+    display: flex;
     flex-wrap: wrap;
+    height: 100vh;
+    z-index: 2;
     border: 5px solid rgb(255, 0, 144);
 }
+h1{
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+}
 .bandeau{
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
     border: 5px solid rgb(255, 225, 0);
  }
