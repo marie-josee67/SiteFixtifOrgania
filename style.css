@@ -123,12 +123,14 @@
 
  /* ************************************************ page accueil => intro ************************************************** */
 
- .deuxieme{
+#Demo{
+    display:flex;
+    flex-direction:column;
     min-height: 100%;
     border: 5px solid purple;
  }
-
-.deuxieme h1{
+ /* # pour appeler les id */
+#Demo h1{
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -140,7 +142,14 @@
     border: 5px solid rgb(31, 165, 147);
 }
 
- .card1{
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1{
     display: flex;
     flex-wrap: wrap;
     height: 520px;
@@ -157,3 +166,23 @@
     overflow: hidden;
     border:5px solid yellow;
  }
+ .card h2{
+    font-size: 35px;
+ }
+
+.purchase2 {
+    font-size: 20px;
+    height: 50px;
+    background-color:rgb(10, 147, 10) ;
+    overflow: hidden;
+    border: 5px solid rgb(191, 84, 13);
+}
+
+.purchase2 a{
+    color: #f3f3f3;
+}
+
+.purchase2:hover{
+    cursor: pointer;
+    overflow: visible;
+}
