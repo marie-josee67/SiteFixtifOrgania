@@ -10,7 +10,7 @@ page intro:
 
 nav barre => fait
 image bg => fait
-texte " Organia - Organic Foods Store WordPress Theme"
+texte " Organia - Organic Foods Store WordPress Theme"=> fait
 encadrer indication de la page 
 footer blanc
 

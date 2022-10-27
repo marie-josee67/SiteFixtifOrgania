@@ -31,7 +31,6 @@
     margin:5px;
     /*border: 5px solid red;*/
 }
-
 .nav{
     display: flex;
     flex-wrap: wrap;
@@ -101,15 +100,20 @@ h1{
 .bandeau{
     display: flex;
     position: absolute;
-    /*top:550px;  
-    left: 300px;  */
-   padding: 5px;
+    top:550px;  /* vertical */
+    left: 220px;/* horizontale */
+    padding: 5px;
     height: 200px;
-    /*justify-content: space-around; /* Les éléments s'affichent avec un espacement égal à l'entour d'eux.  */
-   /* align-items:flex-end;*/
+    width: 70%;
+    justify-content: space-around; /* Les éléments s'affichent avec un espacement égal à l'entour d'eux.  */
+    align-items:flex-end;
     background-color: #f3f3f3;
     font-size:xx-large;
     text-align: center;
     gap:10px;
     
+ }
+ H2{
+    color: rgb(10, 147, 10);
+    font-weight: 800;
  }
