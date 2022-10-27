@@ -1,15 +1,15 @@
 missions:
 
-nav barre logo, section : Intro, Demos,Core Features, Inner Pages, Awesone Sections, bouton " Purchase Now"
+nav barre logo, section : Intro, Demos,Core Features, Inner Pages, Awesone Sections, bouton " Purchase Now" => fait
 
 nav barre fixe 
-nav barre bg transparent au début
+nav barre bg transparent au début => fait
 nav barre bg blanc sur les autres pages
 
 page intro:
 
-nav barre
-image bg
+nav barre => fait
+image bg => fait
 texte " Organia - Organic Foods Store WordPress Theme"
 encadrer indication de la page 
 footer blanc

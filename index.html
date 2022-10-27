@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+
+     <!-- Lien CSS Font Awesome (icônes) -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     
+
+     <link rel="stylesheet" href="style.css">
+
     <title>Exo Organia reproduction site</title>
 
 </head><style>
@@ -20,12 +26,15 @@
         <section class = "intro">
             <main class = "logo"><img src="img/logo.png" alt="Logo de l'enseigne"></main> <!--  balise ne peut être utiliser q'une seule fois par page-->
             <ul class="nav"> <!-- Liste non ordonner -->
-                <li class="header"><a href="#intro">Intro</a></li>
-                <li class="demos"><a href="#Demos">Demos</a></li>
-                <li class="core"><a href="#Core">Core Features</a></li>
-                <li class="inner"><a href="#Inner">Inner Pages</a></li>
+                <li class="header"><a href="#intro"style="text-decoration:none">Intro</a></li>
+                <li class="demos"><a href="#Demos"style="text-decoration:none">Demos</a></li>
+                <li class="core"><a href="#Core"style="text-decoration:none">Core Features</a></li>
+                <li class="inner"><a href="#Inner"style="text-decoration:none">Inner Pages</a></li>
             </ul>
-            <button class="purchase"><a href="#Purchase">Purchase Now</a></button>
+            <button class="purchase">
+                <a href="#Purchase"style="text-decoration:none">Purchase Now</a>
+                <i class="fa-solid fa-circle-arrow-right"></i>
+            </button> <!-- style => permet d'enlever ici le surlignage -->
         </section>
         <!-- ***************************** page accueil ********************************** -->
         <section class = "accueil">
@@ -51,6 +60,8 @@
         </section>
 
     </div>
+
+
 </body>
 </html>
 

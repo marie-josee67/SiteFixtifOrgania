@@ -36,28 +36,36 @@
     display: flex;
     flex-wrap: wrap;
     height: 80px;
-    width: 65%;
+    width: 40%;
     font-size: 30px;
     gap:15px;
     align-items: center;
     justify-content: space-between; 
     padding:0 30px 0 30px;
     /*border: 5px solid rgb(51, 255, 0);*/
+
 }
 
 
 /* bouton de la nav barre */
 .purchase{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    font-size:20px ;
+    width: 15%;
+    font-weight: 700; /* gras de la police */
+    font-size:18px ;
     padding: 5px;
     margin: 10px;
     border-radius: 0 50px 50px 0;
     background: rgb(10, 147, 10);
    /* border: 5px solid blue;*/
+}
+.purchase i  {
+    color:white;
+    width: 50px;
+    text-align: center;
 }
 
 /* ***************************** page acceuil ********************************** */
@@ -66,20 +74,22 @@
     display:flex;
     flex-direction: column; /* position en colonne */
     justify-content: space-between;
-    align-content:flex-end;
+    /*align-content:flex-end;*/
     height: 100vh;
-    z-index: 2;
+    /*z-index: 2;*/
     border: 5px solid rgb(255, 0, 144);
 }
 
 h1{
     display: flex;
     text-align: center;
-    font-size: 50px;
     justify-content: center;
     align-content:center ;
     color:#f3f3f3;
-    background: #000; /* à enlever à la fin */
+    background: #000; /* à enlever à la fin  des que positionnner dans la page*/
+    font-size: 60px;
+    line-height: 83px;
+    letter-spacing: -3px;/* espace entre les lettres */
     border: 5px solid rgb(77, 17, 160);
 }
 
