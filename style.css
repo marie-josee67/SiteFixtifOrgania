@@ -127,7 +127,9 @@
     display:flex;
     flex-direction:column;
     min-height: 100%;
-    border: 5px solid purple;
+    min-width: 100%;
+    border: 5px solid purple; /* a enlever à la fin  */
+    background: #f8f9fa; 
  }
  /* # pour appeler les id */
 #Demo h1{
@@ -174,7 +176,8 @@
     font-size: 20px;
     height: 50px;
     background-color:rgb(10, 147, 10) ;
-    overflow: hidden;
+    visibility: hidden; /* le button est invisible */
+    cursor: pointer;
     border: 5px solid rgb(191, 84, 13);
 }
 
@@ -184,5 +187,5 @@
 
 .purchase2:hover{
     cursor: pointer;
-    overflow: visible;
+    visibility: visible;
 }
